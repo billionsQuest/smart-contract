@@ -31,7 +31,7 @@ To interact with or deploy the contracts, you'll need a local Ethereum developme
 1. **Clone the Repository**:
 
 ```bash
-git clone <repository_url> billions-contracts
+git clone https://github.com/billionsQuest/smart-contract.git
 cd billions-contracts
 ```
 
