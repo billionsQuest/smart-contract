@@ -1,0 +1,28 @@
+{
+  "name": "hardhat-project",
+  "scripts": {
+    "billionsNft": "npx hardhat run --network mumbai scripts/billionsNft.ts",
+    "billionsNft:local": "npx hardhat run --network localhost scripts/billionsNft.ts",
+    "battle": "npx hardhat run --network mumbai scripts/battle.ts --show-stack-traces",
+    "battle:local": "npx hardhat run --network localhost scripts/battle.ts",
+    "scalarNft": "npx hardhat run --network mumbai scripts/scalarNft.ts",
+    "playToken": "npx hardhat run --network mumbai scripts/playToken.ts",
+    "playToken:local": "npx hardhat run --network localhost scripts/playToken.ts",
+    "deploy": "npx hardhat run --network mumbai scripts/deploy.ts",
+    "deploy:sepolia": "npx hardhat run --network sepolia scripts/deploy.ts",
+    "deploy:local": "npx hardhat run --network localhost scripts/deploy.ts",
+    "marketplace": "npx hardhat run --network mumbai scripts/marketplace.ts"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^2.0.2",
+    "@types/node": "^20.6.0",
+    "@types/node-cron": "^3.0.8",
+    "hardhat": "^2.17.0",
+    "nodemon": "^3.0.1"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.9.3",
+    "dotenv": "^16.3.1",
+    "node-cron": "^3.0.2"
+  }
+}
